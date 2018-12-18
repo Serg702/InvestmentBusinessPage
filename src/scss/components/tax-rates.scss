@@ -1,0 +1,32 @@
+.tax-rates {
+  background: #1a3255 url('/assets/images/continent.png') no-repeat 50% 50%;
+  border-top: 1px solid #fff;
+  font-size: 18px;
+  color: #fff;
+
+  .container {
+    text-align: center;
+    max-width: 473px;
+    margin: 0 auto;
+
+    p {
+      margin-bottom: 32px;
+    }
+  }
+
+  .title {
+    margin: 73px 0 59px;
+    color: #fff;
+  }
+
+  .button {
+    color: #fff;
+    width: 170px;
+    background-color: #1a3255;
+    margin-bottom: 80px;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}

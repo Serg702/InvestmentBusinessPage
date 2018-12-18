@@ -1,0 +1,65 @@
+.subscription {
+  border-top: 1px solid #1a3255;
+  background-color: #1a3255;
+  text-align: center;
+
+  .container {
+    max-width: 782px;
+    margin: 0 auto;
+  }
+
+  .details {
+    font-size: 18px;
+    color: #fff;
+    max-width: 753px;
+    margin: 77px auto 27px;
+
+    .details-par {
+      margin: 0;
+    }
+  }
+
+  .button {
+    color: #fff;
+    width: 170px;
+    background-color: #1a3255;
+    margin-bottom: 80px;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  .inputs-container {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0 auto 30px;
+    max-width: 760px;
+    display: flex;
+
+    @media (max-width: 629px) {
+      flex-direction: column;
+    }
+
+    .input {
+      color: #fff;
+      padding: 19px 0 17px 22px;
+      background-color: #2a4061;
+      width: 50%;
+      border: none;
+      margin: 10px;
+
+      @media (max-width: 629px) {
+        width: 90%;
+        margin: 0 auto 10px;
+      }
+
+      @include placeholder {
+        font-size: 14px;
+        font-weight: bold;
+        color: #8d99aa;
+      }
+    }
+  }
+}

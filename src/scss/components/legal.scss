@@ -1,0 +1,33 @@
+.legal {
+  .container {
+    text-align: center;
+    color: #787878;
+    border-bottom: 1px solid #173356;
+  }
+
+  .title {
+    margin: 93px 0 68px;
+  }
+  .legal-par-container {
+    text-align: left;
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 970px;
+    margin: 0 auto 60px;
+    display: flex;
+
+    @media (max-width: 767px) {
+      display: block;
+    }
+  }
+
+  .legal-par {
+    margin: 0 7px;
+    width: 33.3%;
+
+    @media (max-width: 767px) {
+      width: 95%;
+      margin: 0 auto 15px;
+    }
+  }
+}

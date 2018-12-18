@@ -1,0 +1,77 @@
+.locations {
+  display: flex;
+  justify-content: space-between;
+  max-width: 855px;
+  margin: 0 auto;
+
+  .location-instance {
+    margin-bottom: 77px;
+
+    .map {
+      border-radius: 50%;
+      margin-bottom: 23px;
+    }
+
+    .location-name {
+      font-size: 18px;
+      font-weight: 400;
+      position: relative;
+      margin-bottom: 34px;
+
+      &:before {
+        content: '';
+        background-color: #1a3255;
+        height: 2px;
+        width: 12px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 32px;
+      }
+    }
+
+    .location-address {
+      font-size: 14px;
+      line-height: 20px;
+      font-style: normal;
+      margin: 0;
+    }
+
+    .shorter-adress {
+      margin-top: 43px !important;
+    }
+
+    .contact-details {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      font-size: 14px;
+      line-height: 19px;
+
+      .contact-details-par {
+        margin: 0;
+      }
+
+      .contact-details-link {
+        text-decoration: none;
+        color: #1a3255;
+
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
+
+    @media (max-width: 767px) {
+      display: block;
+
+      .location-instance {
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  @media (max-width: 767px) {
+    flex-direction: column;
+  }
+}

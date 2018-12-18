@@ -1,0 +1,39 @@
+.law-news {
+  max-width: 966px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+
+  @media (max-width: 499px) {
+    flex-wrap: wrap;
+  }
+
+  .news-title {
+    font-size: 17px;
+    color: #536580;
+    margin-bottom: 6px;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  .news-par {
+    font-size: 14px;
+    line-height: 19px;
+    margin: 0 0 10px;
+  }
+  .news-load-more {
+    color: #1a3255;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .news-block {
+    text-align: left;
+    margin-bottom: 35px;
+  }
+  .container-left {
+    margin-right: 41px;
+  }
+}

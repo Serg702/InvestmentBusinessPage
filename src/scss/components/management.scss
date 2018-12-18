@@ -1,0 +1,28 @@
+.management {
+  .container-upper-background {
+    background: url('/assets/images/church.jpg') no-repeat;
+    background-size: cover;
+    min-height: 300px;
+  }
+  .title {
+    margin: 70px 0 93px;
+  }
+
+  .container {
+    text-align: center;
+    max-width: 1040px;
+    margin: 0 auto;
+  }
+
+  .button {
+    background-color: #fff;
+    border: 1px solid #1a3255;
+    color: #1a3255;
+    width: 170px;
+    margin-bottom: 78px;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}

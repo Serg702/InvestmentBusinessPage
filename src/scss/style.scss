@@ -1,0 +1,38 @@
+// Note: any .css or .scss files included in the 'styles' directory
+// will be correctly compiled during `gulp` and `gulp production`
+
+//* Vendors *//
+@import './node_modules/include-media/dist/include-media';
+
+//* Abstracts modules *//
+@import 'abstracts/main';
+
+//* Base modules *//
+@import 'base/main';
+
+//* Layout modules *//
+@import 'layout/main';
+
+//* Pages modules *//
+@import 'pages/main';
+
+//* Components *//
+@import 'components/header';
+@import 'components/header-intro';
+@import 'components/description';
+@import 'components/services';
+@import 'components/management';
+@import 'components/tax-rates';
+@import 'components/resources';
+@import 'components/subscription';
+@import 'components/contact';
+@import 'components/questions';
+@import 'components/button';
+@import 'components/legal';
+@import 'components/title';
+@import 'components/container';
+@import 'components/managers-list';
+@import 'components/brochure-container';
+@import 'components/law-news';
+@import 'components/locations';
+@import 'components/footer';

@@ -1,0 +1,25 @@
+.brochure-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 663px;
+  margin: 0 auto 40px;
+
+  .brochure-instance {
+    margin: 0 0 15px;
+  }
+
+  .brohure-name {
+    margin: 11px 0 4px;
+  }
+  .download {
+    font-size: 14px;
+    color: #1a3255;
+    font-weight: bold;
+    text-decoration: none;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.contact {
+  @media (max-width: 767px) {
+    border-bottom: 2px solid #1a3255;
+  }
+  .container {
+    text-align: center;
+    color: #787878;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .title {
+    margin: 73px 0 68px;
+    &:before {
+      bottom: -31px;
+    }
+  }
+
+  .details-container {
+    margin: 0 auto 59px;
+    max-width: 795px;
+    font-size: 18px;
+
+    .customer-info {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
